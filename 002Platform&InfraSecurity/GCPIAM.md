@@ -1,6 +1,6 @@
-Login to GCP Account
+Login to GCP Account AS ADMIN
 
-Search for users and select identity platform
+Search for users and select identity platform(Enable it if it is not already enabled)
 
 add email /password as provider
 
