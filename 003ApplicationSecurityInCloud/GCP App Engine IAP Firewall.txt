@@ -1,0 +1,21 @@
+Login to GCP as Admin
+
+Enable IAP
+Enable App Engine
+
+Open Cloud Shell->Authorize if asked
+
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+cd python-docs-samples/appengine/standard_python3/hello_world/
+gcloud app deploy
+
+you will get app link, everyone should be able to access
+
+goto IAP->Click on COnfigure Consent Screen->Give Name->Give a Email Two Times->Save and Continue->Backto Dashboard
+
+Goto IAP Again->Refresh->Click on the Check BOX Next to App Engine->Click On Add Principle in the Side Bar->give email in the principle box->
+Under ROles->IAP->IAP-Secured Web App User and Save it.
+
+Now Enable App Engine
+
+now anyone who is not mentioned in the principle cannot access the WebPage.
