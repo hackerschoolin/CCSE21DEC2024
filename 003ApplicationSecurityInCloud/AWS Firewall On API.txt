@@ -1,0 +1,18 @@
+login to AWS as Admin
+
+search for API Gateway
+
+Click Build on REST API->Select Example API(PetStore)-> Click Build
+
+after building is done, click deploy.
+
+try accessing that link to see how your API will look like
+
+
+Search for firewall manager->IP Sets->Create a new list->and add IPs inside for Black Listing(make sure you give IP/32
+
+Goto Web ACL->Create->Give Name->Add your PetStore API in resource->Next
+
+Add Rules->Add My Own Rules Groups->IP Set->Give Name->Select IP Set Name->Add Rule->Next->Next->Next->Next->Create
+
+Try to access API from blocked IP and not Blocked ip to verify the firewall rule implemented or not.
