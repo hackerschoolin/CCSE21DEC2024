@@ -1,0 +1,5 @@
+Full Backup = All Files
+
+Incremental Backup = Only Modified Files From Last Executed(May or may not be from full backup)
+
+Differential Backup = Only Modified Files From Last Full
